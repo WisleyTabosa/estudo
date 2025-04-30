@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #7e1fa2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    
+  }
+  .misera{
+    background-color: #9d3df2;
+    width: 100vw;
+    height: 30vh;
+  }
+  .main-content {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .main-content h2 {
+    color: #7e1fa2;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+  .team {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .team h3 {
+    color: #7e1fa2;
+    margin-bottom: 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    background-color: #9d3df2;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+  
+  .team-member p {
+    color: #7e1fa2;
+    font-weight: bold;
+  }
+  
+  .team-member span {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+    font-weight: normal;
+  }
+  
+  .teste {
+    background-color: #7e1fa2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  
+  }
+  

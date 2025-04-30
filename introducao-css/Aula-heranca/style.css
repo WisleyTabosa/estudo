@@ -1,0 +1,11 @@
+p {
+    color: brown;}
+
+div p{
+     color: blue;}
+
+.Segunda > p {
+    color: blueviolet;}
+.teste{color:green ;
+
+}

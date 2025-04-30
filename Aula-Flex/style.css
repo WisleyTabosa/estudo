@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+main{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+.Container{
+    width: 80%;
+    padding: 20px;
+    background-color: aquamarine;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Bloco-1{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+}
+.Bloco-2{
+    width: 120px;
+    height: 160px;
+    background-color: blue;
+
+}
+.Bloco-3{
+    width: 120px;
+    height: 200px;
+    background-color: blue;
+}
